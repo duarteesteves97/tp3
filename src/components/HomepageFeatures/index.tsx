@@ -24,9 +24,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/diversidade.svg').default,
     description: (
       <>
-        Uma biblioteca é um espaço de diversidade, com livros para todos os gostos.
+        É um espaço de diversidade, com livros para todos os gostos.
          Desde romances a aventuras, de clássicos a autores contemporâneos,
-         acolhe leitores de todas as idades, oferecendo histórias e conhecimentos fundamentais.
+         acolhe leitores de todas as idades.
       </>
     ),
   },
