@@ -77,7 +77,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/mdx-blog-post', label: 'Blog', position: 'left'},
           {to: '/blog/Authors', label: 'Authors', position: 'left'},
           {
             href: 'https://github.com/duarteesteves97/tp3',
