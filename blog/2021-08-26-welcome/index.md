@@ -1,6 +1,6 @@
 ---
-slug: welcome
-title: Welcome
+slug: Authors
+title: Authors
 authors: [duarte, daniel, denis]
 tags: [facebook, hello, docusaurus]
 ---

@@ -374,11 +374,12 @@
               }
             ],
             "frontMatter": {
-              "slug": "welcome",
-              "title": "Welcome",
+              "slug": "Authors",
+              "title": "Authors",
               "authors": [
-                "slorber",
-                "yangshun"
+                "duarte",
+                "daniel",
+                "denis"
               ],
               "tags": [
                 "facebook",
