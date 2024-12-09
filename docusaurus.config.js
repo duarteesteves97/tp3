@@ -78,6 +78,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/Authors', label: 'Authors', position: 'left'},
           {
             href: 'https://github.com/duarteesteves97/tp3',
             label: 'GitHub',
