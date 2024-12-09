@@ -26,9 +26,6 @@
             <name>Denis Chepurko</name>
             <uri>https://github.com/endiliey</uri>
         </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX Blog Post]]></title>
