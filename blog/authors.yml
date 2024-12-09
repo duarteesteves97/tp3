@@ -1,17 +1,17 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
+denis:
+  name: Denis Chepurko
+  title: Estudante Ualg
   url: https://github.com/endiliey
   image_url: https://github.com/endiliey.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+duarte:
+  name: Duarte Esteves
+  title: Estudante Ualg
+  url: https://www.linkedin.com/in/duarteesteves/
+  image_url: https://media.licdn.com/dms/image/v2/C4E03AQH26dd1Y1crng/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643897714017?e=1739404800&v=beta&t=IemRoyExyZhRxdnN0bBMP3SMW6LTsjXP06ycJXZhCuI
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
+daniel:
+  name: Daniel Pinto
+  title: Estudante Ualg
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
