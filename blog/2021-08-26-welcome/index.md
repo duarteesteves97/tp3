@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [duarte, daniel]
+authors: [duarte, daniel, denis]
 tags: [facebook, hello, docusaurus]
 ---
 
