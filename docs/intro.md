@@ -2,46 +2,122 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Biblioteca - Guia de Utilização
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bem-vindo à **Biblioteca**! Este guia irá ajudá-lo a navegar e utilizar todas as funcionalidades disponíveis na nossa plataforma.
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## Índice
+1. [Introdução](#introducao)
+2. [Procurar Livros](#procurar-livros)
+3. [Filtrar Resultados](#filtrar-resultados)
+4. [Reservar um Livro](#reservar-um-livro)
+5. [Aceder à Área do Utilizador](#aceder-a-area-do-utilizador)
+6. [Perguntas Frequentes](#perguntas-frequentes)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+## Introdução
+A **Biblioteca** é uma plataforma onde pode explorar, reservar e gerir empréstimos de livros. A nossa coleção inclui milhares de títulos, desde clássicos a lançamentos mais recentes.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+## Procurar Livros
 
-Generate a new Docusaurus site using the **classic template**.
+### Como realizar uma pesquisa
+1. Aceda à página inicial da Biblioteca.
+2. Localize a barra de pesquisa no topo da página.
+3. Introduza o título, autor ou palavra-chave do livro desejado.
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+Exemplo:
+```plaintext
+Introduza: "1984 George Orwell"
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Resultado esperado
+Após a pesquisa, verá uma lista de livros correspondentes aos termos introduzidos:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **Título:** 1984  
+- **Autor:** George Orwell  
+- **Disponibilidade:** Disponível
 
-## Start your site
+---
 
-Run the development server:
+## Filtrar Resultados
 
-```bash
-cd my-website
-npm run start
+Se a lista de resultados for demasiado extensa, pode aplicar filtros para refinar a sua pesquisa:
+
+- **Por Género:**
+  - Ficção
+  - Não Ficção
+  - Fantasia
+
+- **Por Ano de Publicação:**
+  - Últimos 5 anos
+  - Clássicos
+
+- **Por Disponibilidade:**
+  - Disponível
+  - Reservado
+
+Exemplo de filtro aplicado:
+```markdown
+A filtrar resultados para: Ficção + Últimos 5 anos
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Reservar um Livro
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Reservar um livro é simples e rápido. Siga os passos abaixo:
+
+1. Localize o livro desejado nos resultados da pesquisa.
+2. Clique no botão **Reservar** ao lado do título.
+3. Confirme a reserva.
+
+**Nota:**
+- Pode reservar até **3 livros** simultaneamente.
+- As reservas expiram após **7 dias** caso não sejam levantadas.
+
+Mensagem de sucesso ao reservar:
+```plaintext
+Parabéns! O livro "1984" foi reservado com sucesso.
+```
+
+---
+
+## Aceder à Área do Utilizador
+
+Para gerir as suas reservas e histórico de empréstimos:
+
+1. Clique em **Login** no canto superior direito da página.
+2. Introduza o seu utilizador e palavra-passe.
+3. Aceda ao separador **A Minha Conta**.
+
+Na sua conta, pode:
+- Ver livros reservados.
+- Renovar empréstimos.
+- Cancelar reservas.
+
+---
+
+## Perguntas Frequentes
+
+### 1. É possível renovar um empréstimo?
+Sim, basta aceder à sua conta e clicar em **Renovar** ao lado do título do livro.
+
+### 2. O que fazer se esquecer a minha palavra-passe?
+Clique em **Esqueci-me da palavra-passe** na página de login e siga as instruções para redefini-la.
+
+### 3. Posso sugerir novos livros para a coleção?
+Sim! Envie um e-mail para [sugestoes@biblioteca.com](mailto:sugestoes@biblioteca.com) com o título e autor do livro.
+
+---
+
+## Contacto
+Se precisar de ajuda, entre em contacto connosco:
+- **E-mail:** suporte@biblioteca.com
+- **Telefone:** (+351) 1234-5678
+
+Agradecemos por utilizar a **Biblioteca**! 
