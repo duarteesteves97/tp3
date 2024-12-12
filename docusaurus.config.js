@@ -93,7 +93,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Biblioteca - Guia de Utilização',
                 to: '/docs/intro',
               },
             ],
@@ -119,7 +119,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Authors',
                 to: '/blog',
               },
               {
