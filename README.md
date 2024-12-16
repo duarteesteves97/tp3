@@ -1,36 +1,92 @@
-# Docusaurus on Github Pages
+# Biblioteca - Página Web
 
-This is a demo repo to allow for a fast setup of Docusaurus on Github pages
+Bem-vindo ao repositório da página web da **Biblioteca**! Este projeto visa proporcionar aos utilizadores uma experiência intuitiva para explorar, reservar e gerir livros de forma eficiente.
 
-# Instructions
+---
 
-To begin with this repository you have two options:
-- (a) Fork this repository. When you do it, make sure you fork all branches, not only main. Github Actions need the "gh-pages" branch to deploy the site.
-- (b) Clone it to your local filesystem, create a new repository on your github account and push it there. Upon pushing the github actions should trigger and create the gh-pages branch. If it doesn't, make a small change to this file and push it again.
+## Índice
+1. [Descrição do Projeto](#descrição-do-projeto)
+2. [Funcionalidades](#funcionalidades)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Instalação e Configuração](#instalação-e-configuração)
 
-There are other changes you need to do: 
 
-- Github Actions need to be enabled (Settings -> Actions -> General)
-    - Actions permissions:
-        - Allow all actions and reusable workflows
-    - Workflow permissions:
-        - Read and write permissions
-- Github Pages must also be enabled (Settings -> Pages)
-    - Source
-        - Deploy from a branch
-    - Branch
-        - gh-pages (on the dropdown)
+---
 
-# Generate a PDF from the Docs section
+## Descrição do Projeto
 
-You can generate a PDF from the docs section of your Docusaurus website. Just run the following command after replacing the URL with your own:
+A página web da **Biblioteca** foi criada para facilitar o acesso a uma vasta coleção de livros. Os utilizadores podem:
+- Pesquisar livros pelo título, autor ou palavras-chave.
+- Aplicar filtros para refinar os resultados da pesquisa.
+- Reservar livros de forma prática e acompanhar o estado das suas reservas.
+- Gerir os seus empréstimos através de uma área de utilizador personalizada.
 
-```
-npx docusaurus-prince-pdf --include-index -u https://masaleiro.github.io/docusaurus-ghpages/docs/intro
-```
+Este site é desenvolvido com o **Docusaurus**, uma ferramenta moderna para criar documentação e páginas web estáticas.
 
-Another alternative is using [Docs-to-pdf](https://github.com/jean-humann/docs-to-pdf) with the following command as example:
+---
 
-```
-npx docs-to-pdf --initialDocURLs="https://masaleiro.github.io/docusaurus-ghpages/docs/intro" --contentSelector="article" --paginationSelector="a.pagination-nav__link.pagination-nav__link--next" --excludeSelectors=".margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page" --coverImage="https://docusaurus.io/img/docusaurus.png" --coverTitle="Docusaurus v2" --pdfMargin="40,60,70,80"
-```
+## Funcionalidades
+
+### Principais Funcionalidades
+- **Pesquisa Avançada:** Utilize filtros como género, ano de publicação e disponibilidade.
+- **Sistema de Reservas:** Reserve livros disponíveis e acompanhe o estado da reserva.
+- **Área do Utilizador:** Gerir reservas, histórico de empréstimos e dados pessoais.
+- **Sugestões de Livros:** Envie sugestões para novos títulos que gostaria de ver na coleção.
+
+### Futuras Funcionalidades
+- Notificações por e-mail para lembrar devoluções.
+- Estatísticas sobre os livros mais populares.
+- Suporte para audiolivros e e-books.
+
+---
+
+## Tecnologias Utilizadas
+
+- **Plataforma:**
+  - Docusaurus
+
+- **Frontend:**
+  - React.js
+  - CSS para estilos personalizados
+
+- **Outras Ferramentas:**
+  - Docker para conteinerização
+  - Jest para testes
+
+---
+
+## Instalação e Configuração
+
+Siga os passos abaixo para configurar o projeto localmente:
+
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- Docker (opcional, para ambiente de desenvolvimento conteinerizado)
+
+### Passos
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/duarteesteves97/tp3
+   ```
+
+2. Acesse o diretório do projeto:
+   ```bash
+   cd tp3
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor Docusaurus:
+   ```bash
+   npm start
+   ```
+
+5. Aceda ao site em [http://localhost:3000](http://localhost:3000).
+
+---
+
+
+
