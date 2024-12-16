@@ -85,6 +85,7 @@ Siga os passos abaixo para configurar o projeto localmente:
    ```
 
 5. Aceda ao site em [http://localhost:3000](http://localhost:3000).
+   ou https://duarteesteves97.github.io/tp3/
 
 ---
 
