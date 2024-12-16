@@ -1,6 +1,6 @@
-# Biblioteca - Página Web
+# TP3 - Biblioteca
 
-Bem-vindo ao repositório da página web da **Biblioteca**! Este projeto visa proporcionar aos utilizadores uma experiência intuitiva para explorar, reservar e gerir livros de forma eficiente.
+Bem-vindo ao repositório da página web **TP3 - Biblioteca**! Este projeto consiste numa aplicação web para explorar e gerir uma biblioteca virtual. É construído utilizando tecnologias modernas e é acessível através do GitHub Pages.
 
 ---
 
@@ -8,65 +8,56 @@ Bem-vindo ao repositório da página web da **Biblioteca**! Este projeto visa pr
 1. [Descrição do Projeto](#descrição-do-projeto)
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-4. [Instalação e Configuração](#instalação-e-configuração)
-
+4. [Como Executar Localmente](#como-executar-localmente)
+5. [Licença](#licença)
 
 ---
 
 ## Descrição do Projeto
 
-A página web da **Biblioteca** foi criada para facilitar o acesso a uma vasta coleção de livros. Os utilizadores podem:
-- Pesquisar livros pelo título, autor ou palavras-chave.
-- Aplicar filtros para refinar os resultados da pesquisa.
-- Reservar livros de forma prática e acompanhar o estado das suas reservas.
-- Gerir os seus empréstimos através de uma área de utilizador personalizada.
-
-Este site é desenvolvido com o **Docusaurus**, uma ferramenta moderna para criar documentação e páginas web estáticas.
+O **TP3 - Biblioteca** é uma aplicação web que apresenta funcionalidades simples e intuitivas para o utilizador interagir com um sistema de biblioteca. A página permite pesquisar e visualizar informações de livros disponíveis, com um design responsivo e fácil de navegar.
 
 ---
 
 ## Funcionalidades
 
-### Principais Funcionalidades
-- **Pesquisa Avançada:** Utilize filtros como género, ano de publicação e disponibilidade.
-- **Sistema de Reservas:** Reserve livros disponíveis e acompanhe o estado da reserva.
-- **Área do Utilizador:** Gerir reservas, histórico de empréstimos e dados pessoais.
-- **Sugestões de Livros:** Envie sugestões para novos títulos que gostaria de ver na coleção.
+- **Interface de Pesquisa:**
+  - Pesquisar por títulos de livros diretamente na barra de pesquisa.
+  - Visualizar os resultados organizados de forma clara e acessível.
 
-### Futuras Funcionalidades
-- Notificações por e-mail para lembrar devoluções.
-- Estatísticas sobre os livros mais populares.
-- Suporte para audiolivros e e-books.
+- **Página Responsiva:**
+  - Totalmente otimizada para desktop e dispositivos móveis.
+
+- **Sistema de Navegação:**
+  - Menu simples e intuitivo para acesso rápido às funcionalidades.
 
 ---
 
 ## Tecnologias Utilizadas
 
-- **Plataforma:**
-  - Docusaurus
-
 - **Frontend:**
-  - React.js
-  - CSS para estilos personalizados
+  - https://duarteesteves97.github.io/tp3/ puro.(HTML, JavaScript, CSS)
 
-- **Outras Ferramentas:**
-  - Docker para conteinerização
-  - Jest para testes
+- **Hospedagem:**
+  - GitHub Pages para disponibilizar o site online.
+
+- **Design Responsivo:**
+  - Media Queries para suportar diferentes tamanhos de ecrã.
 
 ---
 
-## Instalação e Configuração
 
-Siga os passos abaixo para configurar o projeto localmente:
+## Como Executar Localmente
+
+Siga os passos abaixo para executar o projeto no seu ambiente local:
 
 ### Pré-requisitos
-- Node.js (versão 16 ou superior)
-- Docker (opcional, para ambiente de desenvolvimento conteinerizado)
+- Navegador web moderno (Google Chrome, Firefox, Edge, etc.).
 
 ### Passos
-1. Clone o repositório:
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/duarteesteves97/tp3
+   git clone https://github.com/duarteesteves97/tp3.git
    ```
 
 2. Acesse o diretório do projeto:
@@ -74,19 +65,19 @@ Siga os passos abaixo para configurar o projeto localmente:
    cd tp3
    ```
 
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-4. Inicie o servidor Docusaurus:
-   ```bash
-   npm start
-   ```
-
-5. Aceda ao site em [http://localhost:3000](http://localhost:3000).
+3. Abra o ficheiro `index.html` no seu navegador:
+   - No Windows: clique duas vezes no ficheiro.
+   - No macOS/Linux: use o comando:
+     ```bash
+     open index.html
+     ```
 
 ---
 
+## Licença
 
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade para utilizá-lo, modificá-lo e distribuí-lo conforme necessário.
 
+---
+
+Agradecemos por visitar o **TP3 - Biblioteca**! 
