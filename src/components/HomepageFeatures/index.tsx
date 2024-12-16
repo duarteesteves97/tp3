@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Conquitas',
+    title: 'Conquistas',
     Svg: require('@site/static/img/medalha.svg').default,
     description: (
       <>
